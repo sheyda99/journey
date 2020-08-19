@@ -106,13 +106,17 @@
     align-items: baseline;
 }
 
+.form-inner-box {
+    position: relative;
+}
+
 .form-inner-box::before {
     content: " ";
     width: 18px;
     height: 18px;
     background-color: #3CB878;
     position: absolute;
-    top: 121px;
+    top: 25px;
 }
 
 .head p {
